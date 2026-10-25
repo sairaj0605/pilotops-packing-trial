@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "as_of": "2026-09-29T06:00:00",
+  "baseline_days": 14,
+  "trial_days": 14,
+  "bootstrap_samples": 2000,
+  "gates": {
+    "minimum_adjusted_throughput_gain": 0.10,
+    "maximum_defect_increase_pp": 0.50,
+    "minimum_trial_uptime": 0.95,
+    "minimum_valid_event_fraction": 0.995,
+    "maximum_source_lag_hours": 12
+  },
+  "economics": {
+    "currency": "INR",
+    "staff_cost_per_hour": 250,
+    "pilot_equipment_cost_per_hour": 180,
+    "control_equipment_cost_per_hour": 0,
+    "defect_rework_cost": 60
+  }
+}

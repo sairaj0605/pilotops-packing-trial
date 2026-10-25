@@ -1,0 +1,8 @@
+site,criterion,required_evidence,status,owner
+Fictional Site B,Product mix overlap,Compare standard and bulky mix plus dimensions and material specifications,NOT_VALIDATED,Operations analyst
+Fictional Site B,Equipment compatibility,Qualified engineering review and approved layout,NOT_VALIDATED,Engineering owner
+Fictional Site B,Safety readiness,Site-specific qualified safety review and authorized signoff,NOT_VALIDATED,Site safety owner
+Fictional Site B,Data collection,Event IDs clock synchronization and reconciliation to source counts,NOT_VALIDATED,Data owner
+Fictional Site B,Support coverage,Named fault response owner escalation path and training record,NOT_VALIDATED,Site lead
+Fictional Site B,Financial case,Verified capital operating maintenance and training costs,NOT_VALIDATED,Finance owner
+Fictional Site B,Quality guardrail,Corrective action validated in a preplanned follow-up trial,NOT_VALIDATED,Quality owner
