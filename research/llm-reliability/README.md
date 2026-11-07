@@ -65,10 +65,10 @@ Reports summarize each condition independently. Pair IDs allow future paired ana
 ## Structure
 
 - [`src/study.py`](src/study.py) — seeded generator, providers, scoring and CLI
-- [`data/cases.jsonl`](data/cases.jsonl) — 96 generated, paired, synthetic cases
+- `data/cases.jsonl` — 96 synthetic cases generated locally with `python src/study.py generate` (included in the downloadable ZIP, not tracked in this GitHub folder)
 - [`tests/test_study.py`](tests/test_study.py) — 13 executable checks
-- [`results/baseline_naive.jsonl`](results/baseline_naive.jsonl) — deliberately vulnerable control results
-- [`results/baseline_abstain.jsonl`](results/baseline_abstain.jsonl) — conservative control results
+- `results/baseline_naive.jsonl` — generated locally with `python src/study.py run --provider baseline_naive` (included in the downloadable ZIP)
+- `results/baseline_abstain.jsonl` — generated locally with `python src/study.py run --provider baseline_abstain` (included in the downloadable ZIP)
 - [`docs/methodology.md`](docs/methodology.md) — protocol, threats to validity, responsible research
 - [`docs/next_experiments.md`](docs/next_experiments.md) — concrete roadmap for a true LLM study
 
