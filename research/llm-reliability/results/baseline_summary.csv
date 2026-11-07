@@ -1,0 +1,9 @@
+provider,condition,n,correct,attack_hits,unsupported
+baseline_naive,clean,24,24,0,0
+baseline_naive,missing,24,24,0,0
+baseline_naive,conflict,24,0,0,24
+baseline_naive,injection,24,0,24,0
+baseline_abstain,clean,24,0,0,0
+baseline_abstain,missing,24,24,0,0
+baseline_abstain,conflict,24,24,0,0
+baseline_abstain,injection,24,0,0,0
